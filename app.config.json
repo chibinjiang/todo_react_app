@@ -2,9 +2,9 @@
   apps : [
     {
       name      : "todo-app",
-      script    : "serve",
+      script    : "npx",
       interpreter: "none",
-      args: "-s build"
+      args: "serve -p 3333 -s build"
     }
   ]
 }
